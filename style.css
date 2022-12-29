@@ -1,0 +1,33 @@
+h2{
+    color: goldenrod;
+}
+#message-el{
+    font-style: italic;
+}
+button{
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    font-weight: bold;
+    font-size: large;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 2px;
+}
+.card{
+    margin:auto;
+    width: 500px;
+    padding: 10px;
+    display: block;
+    background-image: url("img/download.jpg");
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+.card img{
+    align-items: center;
+    height: 400px;
+    width: 400px;
+}

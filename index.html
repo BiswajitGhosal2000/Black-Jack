@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="card">
+        <h2>BLACK JACK</h2>
+        <img src="img/logo.png" class="card-img-top" alt="logo">
+        <div class="card-body">
+            <h5 id="message-el">Want to play a round?</h5>
+            <p id="card-el">Cards:</p>
+            <p id="sum-el">Sum:</p>
+        </div>
+        <div class="card-footer">
+            <button type="button" onclick="startGame()">START GAME</button>
+            <button type="button" onclick="newCard()">NEW CARD</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
